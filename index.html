@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR"></html>
+<html>
+  <head>
+    <title id="titulo">Crachá Virtual - DoWhile 2021</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Include jQuery :) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"
+    />
+  </head>
+  <body>
+    <div id="modal" class="form">
+      <div class="title">Bem vindo ao DoWhile 2021!</div>
+      <div class="subtitle">Vamos criar o seu crachá?</div>
+
+      <div class="input-container">
+        <input id="modalGithub" class="input" type="text" placeholder=" " />
+        <div class="cut"></div>
+        <label for="modalGithub" class="placeholder">Github</label>
+      </div>
+
+      <div class="input-container">
+        <input id="modalYouTube" class="input" type="text" placeholder=" " />
+        <div class="cut"></div>
+        <label for="modalYouTube" class="placeholder">YouTube</label>
+      </div>
+
+      <div class="input-container">
+        <input id="modalFacebook" class="input" type="text" placeholder=" " />
+        <div class="cut"></div>
+        <label for="modalFacebook" class="placeholder">Facebook</label>
+      </div>
+
+      <div class="input-container">
+        <input id="modalInstagram" class="input" type="text" placeholder=" " />
+        <div class="cut"></div>
+        <label for="modalInstagram" class="placeholder">Instagram</label>
+      </div>
+
+      <div class="input-container">
+        <input id="modalTwitter" class="input" type="text" placeholder=" " />
+        <div class="cut"></div>
+        <label for="modalTwitter" class="placeholder">Twitter</label>
+      </div>
+
+      <button id="btnEnviar" type="text" class="submit" data-dismiss="modal">
+        Tô dentro! 🚀
+      </button>
+    </div>
+    <main>
+      <div class="container">
+        <div class="avatar">
+          <span class="girar">
+            <img src="images/build.svg" alt="Selo Rocketseat" />
+          </span>
+          <img
+            src="https://lorempixel.com/185/185/people/"
+            alt="Foto pessoal"
+            id="UserImage"
+          />
+        </div>
+
+        <h1 id="userName">Nome</h1>
+        <a id="userLink" href="#" target="_blank">
+          <img src="images/github.svg" alt="ícone github" />
+          <span id="userLogin">login</span></a
+        >
+
+        <p id="userBio">Description</p>
+
+        <ul id="socialLinks">
+          <li class="youtube">
+            <a href="#" target="_blank" class="front">
+              <img
+                src="images/youtube.svg"
+                alt="ícone youtube"
+                class="socialButton"
+              />
+            </a>
+          </li>
+          <li class="facebook">
+            <a href="#" target="_blank">
+              <img
+                src="images/facebook.svg"
+                alt="ícone facebook"
+                class="socialButton"
+              />
+            </a>
+          </li>
+          <li class="instagram">
+            <a href="#" target="_blank">
+              <img
+                src="images/instagram.svg"
+                alt="ícone instagram"
+                class="socialButton"
+              />
+            </a>
+          </li>
+          <li class="twitter">
+            <a href="#" target="_blank">
+              <img
+                src="images/twitter.svg"
+                alt="ícone twitter"
+                class="socialButton"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
